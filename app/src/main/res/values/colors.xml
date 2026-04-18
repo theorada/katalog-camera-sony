@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Primary - Sony Black & Gold -->
+    <color name="primary">#1A1A1A</color>
+    <color name="primary_dark">#000000</color>
+    <color name="primary_light">#F5F5F5</color>
+    <color name="accent">#FFB300</color>
+    <color name="accent_dark">#E65100</color>
+
+    <!-- Background -->
+    <color name="bg_main">#F2F2F2</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_header">#1A1A1A</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_accent">#FFB300</color>
+
+    <!-- Badge Tipe Kamera -->
+    <color name="badge_mirrorless">#1565C0</color>
+    <color name="badge_mirrorless_bg">#E3F2FD</color>
+    <color name="badge_dslr">#6A1B9A</color>
+    <color name="badge_dslr_bg">#F3E5F5</color>
+    <color name="badge_pocket">#2E7D32</color>
+    <color name="badge_pocket_bg">#E8F5E9</color>
+    <color name="badge_vlog">#BF360C</color>
+    <color name="badge_vlog_bg">#FBE9E7</color>
+
+    <!-- UI Elements -->
+    <color name="divider">#E5E7EB</color>
+    <color name="search_bg">#FFFFFF</color>
+    <color name="ripple">#33FFFFFF</color>
+    <color name="sony_gold">#FFB300</color>
 </resources>

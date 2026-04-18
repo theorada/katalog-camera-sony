@@ -1,3 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">katalog-camera-sony</string>
+    <string name="app_name">Katalog Kamera Sony</string>
+    <string name="app_tagline">Temukan Kamera Sony Terbaik untuk Kamu</string>
+    <string name="search_hint">Cari nama kamera Sony...</string>
+    <string name="btn_search">Cari</string>
+    <string name="btn_sort_az">A → Z</string>
+    <string name="btn_sort_za">Z → A</string>
+    <string name="label_tipe">Tipe</string>
+    <string name="label_resolusi">Resolusi</string>
+    <string name="label_harga">Harga</string>
+    <string name="label_sensor">Ukuran Sensor</string>
+    <string name="label_video">Kemampuan Video</string>
+    <string name="label_deskripsi">Deskripsi</string>
+    <string name="label_fitur">Fitur Unggulan</string>
+    <string name="back">Kembali</string>
+    <string name="total_kamera">kamera ditemukan</string>
+    <string name="empty_result">Kamera tidak ditemukan</string>
+    <string name="validation_empty">Kolom pencarian tidak boleh kosong!</string>
 </resources>
