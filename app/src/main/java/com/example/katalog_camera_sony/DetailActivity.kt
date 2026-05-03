@@ -2,6 +2,7 @@ package com.example.katalog_camera_sony
 
 import android.os.Bundle
 import android.widget.ImageButton
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
@@ -13,6 +14,7 @@ class DetailActivity : AppCompatActivity() {
 
         val kamera = intent.getSerializableExtra("kamera") as? Kamera
 
+        val ivDetailKamera: ImageView = findViewById(R.id.ivDetailKamera)
         val tvDetailNama: TextView = findViewById(R.id.tvDetailNama)
         val tvDetailTipe: TextView = findViewById(R.id.tvDetailTipe)
         val tvDetailResolusi: TextView = findViewById(R.id.tvDetailResolusi)
@@ -24,6 +26,9 @@ class DetailActivity : AppCompatActivity() {
         val btnBack: ImageButton = findViewById(R.id.btnBack)
 
         kamera?.let {
+            val resId = resources.getIdentifier(it.gambar, "drawable", packageName)
+            ivDetailKamera.setImageResource(if (resId != 0) resId else R.drawable.ic_placeholder)
+
             tvDetailNama.text = it.nama
             tvDetailTipe.text = it.tipe
             tvDetailResolusi.text = it.resolusi

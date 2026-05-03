@@ -36,6 +36,11 @@ class KameraAdapter(
         holder.tvSensor.text = kamera.sensor
         holder.tvHarga.text = kamera.harga
 
+        val resId = holder.itemView.context.resources.getIdentifier(
+            kamera.gambar, "drawable", holder.itemView.context.packageName
+        )
+        holder.ivKamera.setImageResource(if (resId != 0) resId else R.drawable.ic_placeholder)
+
         when (kamera.tipe) {
             "Mirrorless" -> {
                 holder.tvTipe.setBackgroundResource(R.drawable.bg_badge_mirrorless)

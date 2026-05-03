@@ -10,5 +10,6 @@ data class Kamera(
     val video: String,
     val harga: String,
     val deskripsi: String,
-    val fitur: String
+    val fitur: String,
+    val gambar: String = ""
 ) : Serializable
