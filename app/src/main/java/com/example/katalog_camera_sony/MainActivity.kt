@@ -14,7 +14,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 class MainActivity : AppCompatActivity() {
 
-    private val TAG = "2200000"
+    private val TAG = "42430018"
 
     private lateinit var recyclerView: RecyclerView
     private lateinit var etSearch: EditText
